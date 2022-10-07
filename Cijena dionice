@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float kladionica (float minimum, float maximum, float cijena, float promjena){
+	float zavrsna_cijena=cijena * (1+promjena);
+	if (minimum<zavrsna_cijena || zavrsna_cijena>maximum) return 0;
+	else return 1;
+	
+}
+
+
+
+int main(){
+	
+float minimum;
+float maximum;
+float cijena;
+float promjena;	
+
+printf("Unesi minimum Patricijine granice: ");
+scanf("%f", &minimum);
+printf("Unesi maximum Patricijine granice: ");
+scanf("%f", &maximum);
+printf("Unesi  za koliko se posto cijena dionice promjenila: ");
+scanf("%f", &cijena);
+printf("Unesi promjenu cijene dionice: ");
+scanf("%f", &minimum);
+
+printf(kladionica(minimum, maximum, cijena, promjena)?"Patricija ce kupiti dionicu" : "Patricija nece kupiti dionicu");
+}
