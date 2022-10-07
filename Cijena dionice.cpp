@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=3
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -71,6 +71,16 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
+FileName=Cijena dionice.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
 FileName=Cijena dionice.cpp
 CompileCpp=1
 Folder=
