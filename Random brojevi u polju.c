@@ -8,10 +8,7 @@ int trazi(int A[],int n){
 			if(A[i]>=8 && A[i]<=10)
 				return i;
 			return -1;	
-				
-		
-		
-		
+	
 }
 
 int main(){
